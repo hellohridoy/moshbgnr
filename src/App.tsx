@@ -1,7 +1,7 @@
 import ListGroup from './components/ListGroup'
 import 'bootstrap/dist/css/bootstrap.css'
 function App() {
-  const items = ["Rupgonj", "Islamabad", "Dhaka", "Sylhet", "London"];
+  const items = ["Rupgonj", "Islamabad", "Dhaka", "Sylhet", " "];
 
   return (
     <>

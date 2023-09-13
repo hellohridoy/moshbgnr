@@ -9,7 +9,6 @@ export default function ListGroup({items,heading}:Props) {
     <>
       <h1>{heading}</h1>
       <ul className="list-group">
-        {items.length === 0 && <p>No item found</p>}
         {items.map((item, index) => (
           <li
             className={selectedIndex === index ? "list-group-item active":"list-group-item"}
