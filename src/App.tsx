@@ -1,6 +1,7 @@
 // import ListGroup from './components/ListGroup'
 import 'bootstrap/dist/css/bootstrap.css'
-import Alert from './components/Alert'
+import Button from './components/Button'
+//import Alert from './components/Alert'
 function App() {
 //   const items = ["Rupgonj", "Islamabad", "Dhaka", "Sylhet", "Hridoy","Hossain"];
 // const handleSelectItem = (item:string) =>{
@@ -9,9 +10,13 @@ function App() {
   return (
     <>
       {/* < ListGroup items={items} heading='City'onSelectItem={handleSelectItem}/> */}
-      <Alert>
+      {/* <Alert>
         Hello  <span>World</span>
-      </Alert>
+      </Alert> */}
+
+    <Button color='danger' onClick={()=>console.log('Clicked')}>
+      My Button
+    </Button>
     </>
   )
 }
